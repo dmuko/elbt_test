@@ -2,6 +2,7 @@ FROM ubuntu:12.04
 
 RUN apt-get -y update
 RUN apt-get -y install python-setuptools
+RUN apt-get -y install gcc
 
 RUN easy_install pip
 
